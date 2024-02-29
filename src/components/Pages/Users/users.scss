@@ -1,0 +1,55 @@
+.users__table {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    table {
+        border-collapse: collapse;
+        border: 2px solid #9a9898;
+
+        th,
+        td {
+            border: 2px solid #9a9898;
+            padding: 8px;
+            text-align: left;
+            padding: 5px 50px;
+        }
+
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        th {
+            background-color: #3e453e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    }
+
+}
+
+.act__btns {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+
+    button {
+        padding: 6px 10px;
+        border-radius: 4px;
+        border: none;
+        font-size: 14px;
+        font-weight: 500;
+        color: white;
+    }
+
+    .edit__btn {
+        background-color: #3498db;
+    }
+
+    .delete__btn {
+        background-color: #e74c3c;
+    }
+}
