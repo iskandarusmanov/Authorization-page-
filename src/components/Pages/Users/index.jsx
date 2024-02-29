@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import { fetchUsers, deleteUser } from '../../../services/UsersService'
+import { fetchUsers, deleteUser } from '/src/services/usersService'
 import './users.scss'
 
 export default function Users() {
