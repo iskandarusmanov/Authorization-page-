@@ -20,7 +20,7 @@ export default function Navbar() {
         <button
         onClick={() => {
           localStorage.clear();
-          navigate("/login")
+          // navigate("/login")
         }}
         className="nav__btn"
         >
